@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgba(239, 115, 38, 0.8);
+  color: white;
+}
+
+.nav-links {
+  width: 48%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0 20px 15px;
+  overflow: hidden;
+}
+li {
+  margin-right: 50px;
+  margin-top: 8px;
+}
+li a {
+  font-weight: bold;
+}
+#logo {
+  width: 70px;
+  margin: 7px 0 7px 15px;
+}
+a {
+  color: white;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
